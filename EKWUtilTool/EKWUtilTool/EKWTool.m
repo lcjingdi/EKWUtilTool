@@ -10,6 +10,6 @@
 
 @implementation EKWTool
 + (void)printJD {
-    NSLog(@"景迪");
+    NSLog(@"景迪222");
 }
 @end
