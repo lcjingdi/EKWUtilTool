@@ -13,6 +13,7 @@
 		373565521FD017C700881454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373565511FD017C700881454 /* Assets.xcassets */; };
 		373565551FD017C700881454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373565531FD017C700881454 /* LaunchScreen.storyboard */; };
 		373565581FD017C700881454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 373565571FD017C700881454 /* main.m */; };
+		373565611FD0182600881454 /* EKWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 373565601FD0182600881454 /* EKWTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		373565541FD017C700881454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		373565561FD017C700881454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		373565571FD017C700881454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3735655F1FD0182500881454 /* EKWTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKWTool.h; sourceTree = "<group>"; };
+		373565601FD0182600881454 /* EKWTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKWTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		373565471FD017C600881454 /* EKWUtilTool */ = {
 			isa = PBXGroup;
 			children = (
+				3735655E1FD0181E00881454 /* EKWUtilTool */,
 				373565481FD017C700881454 /* AppDelegate.h */,
 				373565491FD017C700881454 /* AppDelegate.m */,
 				3735654B1FD017C700881454 /* ViewController.h */,
@@ -67,6 +71,15 @@
 				373565531FD017C700881454 /* LaunchScreen.storyboard */,
 				373565561FD017C700881454 /* Info.plist */,
 				373565571FD017C700881454 /* main.m */,
+			);
+			path = EKWUtilTool;
+			sourceTree = "<group>";
+		};
+		3735655E1FD0181E00881454 /* EKWUtilTool */ = {
+			isa = PBXGroup;
+			children = (
+				3735655F1FD0182500881454 /* EKWTool.h */,
+				373565601FD0182600881454 /* EKWTool.m */,
 			);
 			path = EKWUtilTool;
 			sourceTree = "<group>";
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3735654D1FD017C700881454 /* ViewController.m in Sources */,
+				373565611FD0182600881454 /* EKWTool.m in Sources */,
 				373565581FD017C700881454 /* main.m in Sources */,
 				3735654A1FD017C700881454 /* AppDelegate.m in Sources */,
 			);

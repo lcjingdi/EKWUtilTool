@@ -1,0 +1,7 @@
+EKWUtilTool.xcodeproj/xcuserdata/
+EKWUtilTool.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+EKWUtilTool.xcodeproj/project.xcworkspace/xcuserdata/
